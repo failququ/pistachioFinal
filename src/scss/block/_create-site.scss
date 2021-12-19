@@ -1,0 +1,65 @@
+.create-site {
+    min-height: 1080px;
+    font-family: Montserrat Alternates;
+    background: url('../img/create-site/create-site-bg.jpg') center (center/cover) no-repeat;
+    padding-top: 120px;
+
+    &__wrapper {
+        display: flex;
+        gap: 112px;
+
+        .left__wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .create-site__title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 60px;
+                line-height: 73px;
+                text-align: right;
+                color: #2B2B30;
+                mix-blend-mode: darken;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            }
+
+            .create-site__descr {
+                margin-top: 54px;
+                width: 750px;
+                height: 120px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 30px;
+                text-align: right;
+                color: #2B2B30;
+            }
+
+            .create-site__button {
+                transition: all 0.6s;
+                margin-top: 80px;
+                background: #3E40CE;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                width: 450px;
+                height: 70px;
+                color: #fff;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 30px;
+                align-self: flex-end;
+                border: none;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+            }
+        }
+
+        .right__wrapper {
+            padding-top: 154px;
+        }
+    }
+}
