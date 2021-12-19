@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
     $('.works__slider').slick(
         {
             infinite: true,
@@ -10,7 +10,6 @@ $(document).ready(function(){
             nextArrow: '<button type="button" class="slick-next"><img src="img/works/arrow-next.png"></button>',
         }
     );
-});
 
 
 
