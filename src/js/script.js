@@ -23,6 +23,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const changingContent = document.querySelector('.descr-content')
 
 
+//ОПТИМИЗИРОВАТЬ КОД 
+
     landingTab.addEventListener('click', () => {
         changingContent.innerHTML = `
         <div class="text animate__animated animate__fadeInLeft wow">Веб-страница, основной задачей которой является сбор контактных данных целевой аудитории. Используется для усиления эффективности рекламы, увеличения аудитории.</div>

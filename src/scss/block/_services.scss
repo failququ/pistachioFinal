@@ -53,7 +53,6 @@
             margin-top: -40px;
 
             .tab__item {
-                padding: 45px 52px 45px 48px;
                 width: 300px;
                 height: 150px;
                 border-radius: 20px 76px 76px 20px;
@@ -63,8 +62,7 @@
                 font-style: normal;
                 font-weight: bold;
                 font-size: 24px;
-                line-height: 29px;
-                text-align: center;
+                // line-height: 29px;
                 color: #2B2B30;
                 cursor: pointer;
                 transition: all 0.5s;
@@ -74,6 +72,15 @@
                     transform: scale(1.05);
                     color: #fff;
                 }
+            }
+
+            #landing, #market, #design {
+                padding-left: 80px;
+                padding-top: 50px;
+            }
+
+            #corporate {
+                padding: 48px 30px 30px 40px;
             }
         }
     }
