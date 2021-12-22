@@ -25,33 +25,29 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //ОПТИМИЗИРОВАТЬ КОД 
 
-    landingTab.addEventListener('click', () => {
-        changingContent.innerHTML = `
-        <div class="text animate__animated animate__fadeInLeft wow">Веб-страница, основной задачей которой является сбор контактных данных целевой аудитории. Используется для усиления эффективности рекламы, увеличения аудитории.</div>
-        <div class="price animate__animated animate__fadeInLeft wow">от 15000 рублей</div>
-        `
-    });
+function tabChanger(element, text, price ) {
+    element.innerHTML = `
+    <div class="text animate__animated animate__fadeInLeft wow">${text}</div>
+    <div class="price animate__animated animate__fadeInLeft wow">${price}</div>
+    `
+}
 
-    marketTab.addEventListener('click', () => {
-        changingContent.innerHTML = `
-        <div class="text animate__animated animate__fadeInLeft wow">Разработка сайта интернет-магазина — первый шаг к высоким продажам и узнаваемости вашего бренда за короткие сроки.</div>
-        <div class="price animate__animated animate__fadeInLeft wow">от 30000 рублей</div>
-        `
-    });
 
-    corporateTab.addEventListener('click', () => {
-        changingContent.innerHTML = `
-        <div class="text animate__animated animate__fadeInLeft wow">Корпоративный сайт - это качественная и полноценная презентация компании в Интернете. Мы разработаем привлекательный digital-портрет вашей компании.</div>
-        <div class="price animate__animated animate__fadeInLeft wow">от 45000 рублей</div>
-        `
-    });
+    landingTab.addEventListener('click', () => tabChanger(changingContent,
+        'Веб-страница, основной задачей которой является сбор контактных данных целевой аудитории. Используется для усиления эффективности рекламы, увеличения аудитории.',
+        'от 15000 рублей'));
 
-    designTab.addEventListener('click', () => {
-        changingContent.innerHTML = `
-        <div class="text animate__animated animate__fadeInLeft wow">Дизайн, который продаёт. Оформление продающего сайта. Создание бренда и уникального логотипа для вашего бизнеса. Подбор цвета, графики, анимации.</div>
-        <div class="price animate__animated animate__fadeInLeft wow">от 10000 рублей</div>
-        `
-    });
+    marketTab.addEventListener('click', () => tabChanger(changingContent,
+        'Разработка сайта интернет-магазина — первый шаг к высоким продажам и узнаваемости вашего бренда за короткие сроки.',
+        'от 30000 рублей'));
+
+    corporateTab.addEventListener('click', () => tabChanger(changingContent,
+        'Корпоративный сайт - это качественная и полноценная презентация компании в Интернете. Мы разработаем привлекательный digital-портрет вашей компании',
+        'от 45000 рублей'));
+
+    designTab.addEventListener('click', () => tabChanger(changingContent,
+        'Дизайн, который продаёт. Оформление продающего сайта. Создание бренда и уникального логотипа для вашего бизнеса. Подбор цвета, графики, анимации.',
+        'от 10000 рублей'));
 
 
     // FORM
