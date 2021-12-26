@@ -38,3 +38,5 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
+
+gulp.task('build', gulp.parallel('watch', 'server', 'styles'));
