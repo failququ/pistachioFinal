@@ -8,6 +8,20 @@
             autoplaySpeed: 3000,
             prevArrow: '<button type="button" class="slick-prev"><img src="img/works/arrow-prev.png"></button>',
             nextArrow: '<button type="button" class="slick-next"><img src="img/works/arrow-next.png"></button>',
+            responsive: [
+                {
+                breakpoint: 1600,
+                settings: {
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 3000,
+                    prevArrow: '<button type="button" class="slick-prev"><img src="img/works/arrow-prev.png"></button>',
+                    nextArrow: '<button type="button" class="slick-next"><img src="img/works/arrow-next.png"></button>',
+                }
+            }
+            ]
         }
     );
 
@@ -23,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const changingContent = document.querySelector('.descr-content')
 
 
-//ОПТИМИЗИРОВАТЬ КОД 
 
 function tabChanger(element, text, price ) {
     element.innerHTML = `

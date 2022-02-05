@@ -1,5 +1,281 @@
-@media (max-width: 1200px) {}
+@media (max-width: 1830px) {
+    .promo {
+        &__menu{
+            .menu__wrapper{
+                width: 650px;
+                margin-left: 1000px;
 
+                .menu__item {
+                    padding-right: 17px;
+                }
+            }
+        }
+
+        &__title {
+            font-size: 125px;
+        }
+
+        &__descr {
+            margin-left: 1150px;
+        }
+    }
+}
+
+@media (max-width: 1775px) {
+    .promo {
+        &__menu{
+            .menu__wrapper{
+                width: 650px;
+                margin-left: 1000px;
+
+                .menu__item {
+                    padding-right: 17px;
+                }
+            }
+        }
+
+        &__title {
+            font-size: 125px;
+        }
+
+        &__descr {
+            margin-left: 1100px;
+        }
+    }
+}
+
+@media (max-width: 1775px) {
+    .promo {
+        &__descr {
+            margin-left: 1020px;
+        }
+    }
+}
+
+@media (max-width: 1650px) {
+    .promo {
+        &__menu{
+            .menu__wrapper{
+                width: 650px;
+                margin-left: 850px;
+            }
+    }
+
+    &__descr {
+        margin-left: 900px;
+    }
+
+    &__title {
+        font-size: 115px;
+        width: 1350px;
+    }
+}
+}
+
+@media (max-width: 1650px) {
+    .create-site{
+        .container{
+            width: 1500px;
+        }
+
+        &__wrapper {
+            gap: 85px;
+
+            .right__wrapper img {
+                width: 650px;
+            }
+        }
+    }
+
+    .about {
+
+        .container{
+            width: 1500px;
+        }
+
+        &__wrapper-top {
+            width: 1500px;
+        }
+
+        &__wrapper-bot {
+            width: 1400px;
+        }
+    }
+
+    .steps {
+        .container{
+            width: 1500px;
+        }
+
+        &__wrapper {
+            grid-template-columns: repeat(3,450px);
+
+            .wrapper__item-1 {
+                .step__descr{
+                    .top-content {
+                        font-size: 18px;
+                    }
+
+                    .bot-content .text{
+                        font-size: 18px;
+                    }
+                }
+
+                .arrowAfter{
+                    left: 450px;
+                }
+            }
+
+            .wrapper__item-2 {
+                .step__descr{
+                        font-size: 18px;
+                }
+
+                .arrowAfter{
+                    left: 450px;
+                }
+            }
+
+            .wrapper__item-3 {
+                .step__descr{
+                        font-size: 18px;
+                }
+            }
+
+            .wrapper__item-4 {
+                .bot__content{
+                    .step__descr{
+                            font-size: 18px;
+                    }
+            }
+        }
+
+            .wrapper__item-5 {
+                .step__descr{
+                        font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1592px) {
+    .services{
+        .container{
+            width: 1500px;
+        }
+    }
+
+    .proposal {
+        .container{
+            width: 1500px;
+        }
+    }
+
+    .footer {
+        .container{
+            width: 1500px;
+        }
+    }
+}
+
+@media (max-width: 1526px) {
+    .promo {
+        &__menu{
+            .menu__wrapper{
+                width: 650px;
+                margin-left: 750px;
+
+                .menu__item {
+                    padding-right: 17px;
+                }
+            }
+        }
+
+        &__title {
+            font-size: 100px;
+            width: 1200px;
+        }
+
+        &__descr {
+            margin-left: 750px;
+        }
+    }
+
+    .create-site {
+            .container{
+                width: 1400px;
+            }
+    
+            &__wrapper {
+                gap: 70px;
+    
+                .right__wrapper img {
+                    width: 550px;
+                }
+            }
+    }
+
+    .about {
+
+        .container{
+            width: 1400px;
+        }
+
+        &__wrapper-top {
+            width: 1300px;
+        }
+
+        &__wrapper-bot {
+            width: 1300px;
+        }
+    }
+
+    .steps {
+        .container {
+            width: 1400px;
+        }
+        &__wrapper {
+            grid-template-columns: repeat(3,430px);
+            
+            .wrapper__item-1{
+                .arrowAfter {
+                    left: 430px;
+                }
+            }
+            .wrapper__item-2{
+                .arrowAfter {
+                    left: 430px;
+                }
+            }
+        }
+    }
+
+    .services{
+        .container{
+            width: 1400px;
+        }
+    }
+
+    .proposal {
+        .container{
+            width: 1400px;
+        }
+
+        &__wrapper {
+            gap: 160px;
+        }
+    }
+
+    .footer {
+        .container{
+            width: 1400px;
+        }
+    }
+}
+
+
+@media (max-width: 1280px) {}
 
 @media (max-width: 992px) {}
 
